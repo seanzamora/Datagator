@@ -1,0 +1,70 @@
+
+body, html {
+    background-color: #FFFFFF;
+    background: url(/includes/bg11.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.tab-content h2 {
+    text-align: center;
+    margin-top: 12px;
+    font-weight: bolder;
+    opacity: .5;
+}
+
+.header {
+  
+}
+
+.col-md-6 > div {
+    padding: 40px 40px 40px;
+    background: #fff;
+    border-radius:4px;
+    min-height: 325px
+}
+
+.col-md-6 {
+    margin-bottom: 20px;
+}
+/* dashboard */
+
+th input {
+    position: absolute;
+    top: -39px;
+    width: 90%!important;
+}
+
+table.uk-table {
+    margin-top: 50px!important;
+}
+/*.dataTables_scrollBody table.dataTable >thead {*/
+/*    display: none;*/
+/*}*/
+#vendor_file_list_wrapper {
+    margin-top: 40px;
+}
+
+.dataTables_filter {
+    display: none;
+}
+
+.tab-content {
+    background: #fff;
+    border-radius: 0px 0px 6px 6px;
+    margin-bottom: 20px;
+    padding: 40px;
+}
+
+.nav-tabs {
+     border-bottom: 0; 
+    background: #ccc;
+    border-radius: 6px 6px 0px 0px;
+        margin: 0;
+}

@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|includes|upload|robots\.txt)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#otherwise forward it ti index.php
+RewriteRule . index.php
